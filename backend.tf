@@ -1,16 +1,16 @@
 # This is a module. This file only exist for local testing. 
 # Comment out this file when committing.  
 
-terraform {
-  cloud {
-    organization = "brightblueray"
+# terraform {
+#   cloud {
+#     organization = "brightblueray"
 
-    workspaces {
-      name = "terraform-azure-idealco_compute"
-    }
-  }
-}
+#     workspaces {
+#       name = "terraform-azure-idealco_compute"
+#     }
+#   }
+# }
 
-provider "azurerm" {
-  features {}
-}
+# provider "azurerm" {
+#   features {}
+# }

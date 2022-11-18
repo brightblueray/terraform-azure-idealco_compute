@@ -12,11 +12,11 @@ variable "prefix" {
 }
 
 variable "rg" {
-  default =  "rryjewski-brief-gorilla-rg"
+  # default =  "rryjewski-brief-gorilla-rg"
 }
 
 variable "subnet_id" {
-  default = "/subscriptions/14692f20-9428-451b-8298-102ed4e39c2a/resourceGroups/rryjewski-brief-gorilla-rg/providers/Microsoft.Network/virtualNetworks/rryjewski-brief-gorilla-network/subnets/internal"
+  # default = "/subscriptions/14692f20-9428-451b-8298-102ed4e39c2a/resourceGroups/rryjewski-brief-gorilla-rg/providers/Microsoft.Network/virtualNetworks/rryjewski-brief-gorilla-network/subnets/internal"
 }
 
 variable "azure_size" {
